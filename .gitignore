@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# ZenML cache and artifacts
+.zen/
+
+# Dataset zip and extracted files (optional)
+dataset/archive.zip
+dataset/archive.zip:Zone.Identifier
+extracted_data/
+
+# MLflow artifacts (if any exist in future)
+mlruns/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Environment files
+.env
+*.env
+
+# macOS / Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Any other temporary files
+*.tmp
